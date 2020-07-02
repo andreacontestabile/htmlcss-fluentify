@@ -4,19 +4,22 @@
   padding: 0;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
 #header {
   height: 600px;
   background-color: #0C325A;
 }
 
-#header ul {
-  list-style: none;
-}
-
 #nav-bar {
   height: 60px;
-  background-color: red;
   color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -26,17 +29,80 @@
   height: 100%;
 }
 
+#nav-bar ul {
+  list-style: none;
+}
+
+#nav-bar a {
+  color: #fff;
+  text-decoration: none;
+}
+
 #nav-bar .logo {
   width: 15%;
-  background-color: yellow;
+}
+
+#nav-bar .logo img {
+  height: 50px;
+  vertical-align: middle;
 }
 
 #nav-bar .main-nav {
-  width: 50%;
-  background-color: green;
+  width: 52%;
+}
+
+#nav-bar .main-nav li {
+  display: inline-block;
+  margin-right: 25px;
+  line-height: 60px;
 }
 
 #nav-bar .action-nav {
-  width: 35%;
-  background-color: blue;
+  width: 33%;
+  text-align: right:
+}
+
+#nav-bar .action-nav ul * {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#nav-bar .action-nav ul *:last-child {
+  margin-right: 0;
+}
+
+#nav-bar .action-nav ul li {
+  line-height: 60px;
+}
+
+#nav-bar .action-nav button {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+#nav-bar #login-button {
+  padding: 15px 25px;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+#nav-bar #login-button:hover {
+  background-color: #fff;
+  color: #0C325A;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+#nav-bar .cta-button {
+  padding: 15px 15px;
+  background-color: #7CBB02;
+  border: none;
+  border-radius: 10px;
 }
