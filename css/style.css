@@ -16,6 +16,7 @@ body {
 button {
   color: #fff;
   font-size: 16px;
+  font-family: 'Maven Pro', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   outline: none;
@@ -153,7 +154,7 @@ button {
 .message-content {
   font-size: 20px;
   font-weight: 500;
-  color: grey;
+  color: #808080;
 }
 
 .features {
@@ -190,7 +191,7 @@ button {
 .feature-description {
  margin-top: 50px;
  font-size: 20px;
- color: grey;
+ color: #808080;
  font-weight: 500;
  line-height: 1.5;
 }
@@ -228,7 +229,7 @@ button {
 .feature-trial-description {
   margin-bottom: 30px;
   font-size: 25px;
-  color: grey;
+  color: #808080;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -237,4 +238,58 @@ button {
   color: midnightblue;
   font-size: 20px;
   font-weight: 500;
+}
+
+#footer {
+  height: 120px;
+  background-color: #D3D3D3;
+}
+
+.footer-cta-left {
+  float: left;
+  width: 55%;
+}
+
+.footer-cta-left p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.footer-cta-right {
+  float: left;
+  width: 45%;
+}
+
+.footer-cta {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-cta p {
+  line-height: 120px;
+}
+
+.footer-cta-right p {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-cta-right p, .footer-cta select {
+font-size: 20px;
+font-weight: 500;
+color: #808080;
+}
+
+.footer-cta select {
+  margin-right: 20px;
+  font-family: 'Maven Pro', sans-serif;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #808080;
+  outline: none;
+}
+
+.footer-cta-right button:first-of-type {
+  margin-right: 15px;
 }
