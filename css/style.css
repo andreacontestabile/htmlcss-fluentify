@@ -3,3 +3,40 @@
   margin: 0;
   padding: 0;
 }
+
+#header {
+  height: 600px;
+  background-color: #0C325A;
+}
+
+#header ul {
+  list-style: none;
+}
+
+#nav-bar {
+  height: 60px;
+  background-color: red;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#nav-bar .logo, #nav-bar .main-nav, #nav-bar .action-nav {
+  float: left;
+  height: 100%;
+}
+
+#nav-bar .logo {
+  width: 15%;
+  background-color: yellow;
+}
+
+#nav-bar .main-nav {
+  width: 50%;
+  background-color: green;
+}
+
+#nav-bar .action-nav {
+  width: 35%;
+  background-color: blue;
+}
