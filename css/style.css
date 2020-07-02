@@ -42,6 +42,12 @@ button {
   text-decoration: none;
 }
 
+#nav-bar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #nav-bar .logo, #nav-bar .main-nav, #nav-bar .action-nav {
   float: left;
   height: 100%;
@@ -148,4 +154,46 @@ button {
   font-size: 20px;
   font-weight: 500;
   color: grey;
+}
+
+.features {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.features::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.features .feature-column {
+  float: left;
+  padding: 0 30px;
+  width: 33.33%
+}
+
+.features .feature-column .separator {
+  height: 2px;
+  width: 100px;
+  margin: 0 auto;
+  border-bottom: 2px solid grey;
+}
+
+.feature-title {
+  margin: 25px 0 40px;
+  font-size: 30px;
+  color: #7CBB02;
+}
+
+.feature-description {
+margin-top: 50px;
+ font-size: 20px;
+ color: grey;
+ font-weight: 500;
+ line-height: 1.5;
+}
+
+.feature-img {
+  height: 180px;
 }
