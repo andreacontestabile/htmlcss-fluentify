@@ -159,6 +159,7 @@ button {
 .features {
   padding: 40px 0;
   text-align: center;
+  border-bottom: 2px solid lightgrey;
 }
 
 .features::after {
@@ -187,7 +188,7 @@ button {
 }
 
 .feature-description {
-margin-top: 50px;
+ margin-top: 50px;
  font-size: 20px;
  color: grey;
  font-weight: 500;
@@ -196,4 +197,44 @@ margin-top: 50px;
 
 .feature-img {
   height: 180px;
+}
+
+.feature-trial div {
+  float: left;
+  width: 50%;
+}
+
+.feature-trial::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.feature-trial img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.feature-trial img, .feature-trial-text {
+  padding: 60px;
+}
+
+.feature-trial-title {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.feature-trial-description {
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: grey;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.feature-trial-link {
+  color: midnightblue;
+  font-size: 20px;
+  font-weight: 500;
 }
